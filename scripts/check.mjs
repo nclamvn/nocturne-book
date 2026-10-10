@@ -22,8 +22,7 @@ const html = await readFile(resolve(root, 'index.html'), 'utf8');
 for (const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
   if (!/^(?:https?:|\.\/)/.test(match[1])) await access(resolve(root, match[1]));
 }
-const provenance = JSON.parse(
-  await readFile(resolve(root, 'assets/paper-mono/provenance.json'), 'utf8'),
-);
-for (const asset of provenance.assets) await access(resolve(root, asset.local ?? asset.path));
+const book = JSON.parse(await readFile(resolve(root, 'assets/books/book.json'), 'utf8'));
+await access(resolve(root, 'assets/books', book.file));
+await access(resolve(root, 'assets/fonts/paper-mono/PaperMonoVF.ttf'));
 console.log(`Syntax and local module/HTML asset links checked: ${paths.length} files.`);

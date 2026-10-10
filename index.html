@@ -4,7 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#101719" />
-    <title>Dưới ánh đèn — Sách 3D</title>
+    <title>Khởi Nguồn — Nguyễn Cảnh Lâm | Sách 3D</title>
+    <meta
+      name="description"
+      content="Đọc Khởi Nguồn của Nguyễn Cảnh Lâm trong không gian sách 3D dưới ánh đèn dầu. 360 trang, giở giấy và xoay sách tương tác."
+    />
+    <meta name="author" content="Nguyễn Cảnh Lâm" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -15,11 +20,8 @@
         tabindex="0"
       ></div>
       <header class="header">
-        <a class="brand" href="./" aria-label="Paper Mono, về bản đối chiếu"
-          ><img src="assets/paper-mono/wordmark.svg" width="88" height="24" alt="Paper" /><span
-            class="night-brand"
-            >Dưới ánh đèn</span
-          ></a
+        <a class="brand" href="./" aria-label="Khởi Nguồn, trở về sách của Nguyễn Cảnh Lâm"
+          ><span class="night-brand">Khởi Nguồn</span></a
         >
         <div class="header-actions">
           <button id="help" class="quiet" aria-label="Hướng dẫn thao tác">Hướng dẫn</button
@@ -27,19 +29,19 @@
             <svg viewBox="0 0 20 20" aria-hidden="true">
               <path d="M10 13V3m-4 4 4-4 4 4M4 12v5h12v-5" /></svg
             >Mở PDF của bạn</button
-          ><input id="pdf-file" type="file" accept="application/pdf,.pdf" hidden /><a
-            class="original-link"
-            href="https://paper.design/mono"
-            target="_blank"
-            rel="noreferrer"
-            >Bản gốc ↗</a
+          ><input id="pdf-file" type="file" accept="application/pdf,.pdf" hidden />
+          <a
+            class="download-book"
+            href="assets/books/khoi-nguon.pdf"
+            download="Khởi Nguồn — Nguyễn Cảnh Lâm.pdf"
+            >Tải sách</a
           >
         </div>
       </header>
       <aside class="book-caption">
-        <p id="edition">Paper Mono · 24 trang</p>
-        <h1 id="book-title">Paper Mono</h1>
-        <p id="book-subtitle">Bản đối chiếu · paper.design/mono</p>
+        <p id="edition">Khởi Nguồn · 360 trang</p>
+        <h1 id="book-title">Khởi Nguồn</h1>
+        <p id="book-subtitle">Nguyễn Cảnh Lâm</p>
       </aside>
       <div class="object-tools" role="toolbar" aria-label="Cầm và xoay cuốn sách">
         <button
@@ -136,7 +138,7 @@
           <label for="page" class="sr-only">Đến trang</label
           ><input id="page" inputmode="numeric" value="Bìa" aria-label="Đến trang" /><span
             id="page-total"
-            >/ 24</span
+            >/ 360</span
           >
         </form>
         <button id="next" class="icon" aria-label="Trang tiếp theo">
@@ -167,7 +169,7 @@
             <circle cx="10" cy="10" r="6" />
             <path d="m15 15 5 5M7 10h6m-3-3v6" />
           </svg></button
-        ><progress id="reading-progress" max="24" value="0" aria-label="Tiến độ đọc"></progress>
+        ><progress id="reading-progress" max="360" value="0" aria-label="Tiến độ đọc"></progress>
       </footer>
       <aside id="marks-panel" hidden aria-label="Trang đánh dấu">
         <div class="marks-heading">
@@ -208,7 +210,7 @@
           <dt>Mở PDF của bạn</dt>
           <dd>PDF được xử lý ngay trên máy, không tải lên máy chủ.</dd>
         </dl>
-        <button id="demo" class="upload">Trở về Paper Mono</button>
+        <button id="demo" class="upload">Trở về Khởi Nguồn</button>
       </dialog>
       <output id="diagnostics" hidden></output>
     </main>

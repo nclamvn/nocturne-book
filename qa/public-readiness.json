@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-10",
+  "version": "0.7.0",
+  "runtimeReady": true,
+  "repositoryPublicReady": false,
+  "visibility": "private",
+  "historyPolicy": "Preserve all history; do not publish, as explicitly selected by the owner.",
+  "publicBlocker": "Earlier commit contains reference page images without a recorded redistribution license.",
+  "book": {"title": "Khởi Nguồn", "author": "Nguyễn Cảnh Lâm", "pages": 360, "unchanged": true},
+  "secretAudit": {
+    "tool": "Gitleaks 8.30.1",
+    "gitHistoryFindings": 0,
+    "workingTreeFindings": 0,
+    "decodedPdfTextAndMetadataFindings": 0,
+    "redactedReports": true,
+    "scope": "History, current files, and decoded PDF text/metadata. Pattern-based scan; not an absolute guarantee."
+  },
+  "externalApiKeysRequired": false,
+  "removedFromCurrentTree": ["Reference page images", "Reference wordmark", "Borrowed grain texture"],
+  "retainedLicensedAssets": ["Paper Mono font under SIL OFL", "Three.js MIT", "PDF.js Apache 2.0"],
+  "sourcePdfStoredExactly": true
+}

@@ -2,7 +2,7 @@ import { BookScene } from './book.mjs';
 import { createRenderer } from './renderer.mjs';
 import { PageCache } from './cache.mjs';
 import { PdfSource } from './pages.mjs';
-import { ReferenceSource } from './reference.mjs';
+import { loadFeaturedBook } from './featured-book.mjs';
 import { cursorForPage, lastSpreadCursor, spreadRange } from './spreads.mjs';
 import { releaseDecision } from './interaction.mjs';
 import { ReaderState, documentId } from './reader-state.mjs';
@@ -49,7 +49,7 @@ try {
   storage = null;
 }
 const reader = new ReaderState(storage);
-let bookId = 'paper-mono-v1',
+let bookId = 'khoi-nguon',
   bookmarks = [],
   night = reader.preference('night', true);
 let reduced = reader.preference('reduced', matchMedia('(prefers-reduced-motion: reduce)').matches);
@@ -92,10 +92,7 @@ function lightUI() {
   $('light').removeAttribute('aria-pressed');
   document
     .querySelector('.brand')
-    .setAttribute(
-      'aria-label',
-      night ? 'Dưới ánh đèn, về sách mẫu' : 'Paper Mono, về bản đối chiếu',
-    );
+    .setAttribute('aria-label', 'Khởi Nguồn, trở về sách của Nguyễn Cảnh Lâm');
   document.querySelector('meta[name="theme-color"]').content = night ? '#101719' : '#f6f6f3';
   $('lamp-control').disabled = !night;
   if (!night) {
@@ -330,7 +327,7 @@ async function replace(next) {
   const oldSource = source,
     oldCache = cache;
   source = next;
-  bookId = source.id ?? 'paper-mono-v1';
+  bookId = source.id ?? 'khoi-nguon';
   const saved = reader.read(bookId, source.count);
   bookmarks = saved.bookmarks;
   cursor = saved.cursor;
@@ -341,12 +338,10 @@ async function replace(next) {
   oldCache?.dispose();
   await oldSource?.destroy();
   $('book-title').textContent = source.title;
-  $('edition').textContent =
-    source.kind === 'pdf'
-      ? `PDF của bạn · ${source.count} trang`
-      : `Paper Mono · ${source.count} trang`;
-  $('book-subtitle').textContent =
-    source.kind === 'pdf' ? 'Xử lý trên máy.' : 'Bản đối chiếu · paper.design/mono';
+  $('edition').textContent = source.featured
+    ? `Khởi Nguồn · ${source.count} trang`
+    : `PDF của bạn · ${source.count} trang`;
+  $('book-subtitle').textContent = source.featured ? source.author : 'Xử lý trên máy.';
   ui();
   const epoch = generation;
   const [cover, backCover] = await Promise.all([
@@ -419,7 +414,7 @@ try {
   $('scene').dataset.init = 'ready';
   lightUI();
   motionUI();
-  await replace(new ReferenceSource());
+  await replace(await loadFeaturedBook());
   for (const id of startupControls) $(id).disabled = false;
   lightUI();
   ui();
@@ -577,7 +572,7 @@ $('help').addEventListener('click', () => {
 document.querySelector('.dialog-close').addEventListener('click', () => $('help-dialog').close());
 $('demo').addEventListener('click', async () => {
   $('help-dialog').close();
-  await replace(new ReferenceSource());
+  await replace(await loadFeaturedBook());
 });
 document.addEventListener('pointerdown', (e) => {
   for (const [id, button] of [

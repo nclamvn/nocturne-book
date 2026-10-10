@@ -6,6 +6,7 @@ node_modules/
 *.log
 *.pdf
 !tests/fixture-320.pdf
+!assets/books/khoi-nguon.pdf
 .env
 .env.*
 *.local

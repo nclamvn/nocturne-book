@@ -1,6 +1,6 @@
 @font-face {
   font-family: PaperMono;
-  src: url('./assets/paper-mono/PaperMonoVF.ttf') format('truetype');
+  src: url('./assets/fonts/paper-mono/PaperMonoVF.ttf') format('truetype');
   font-weight: 100 800;
   font-display: swap;
 }
@@ -140,9 +140,6 @@ header {
 .upload svg {
   width: 16px;
   height: 16px;
-}
-.original-link {
-  font-size: 13px;
 }
 .book-caption {
   position: absolute;
@@ -377,9 +374,6 @@ dialog .upload {
   .quiet {
     font-size: 11px;
   }
-  .original-link {
-    font-size: 11px;
-  }
   .upload {
     font-size: 11px;
   }
@@ -417,9 +411,9 @@ dialog .upload {
     transition: none !important;
   }
 }
-/* A quiet night desk; Paper Mono remains the daytime view. */
+/* A quiet night desk, with a bright reading view available. */
 .night-brand {
-  display: none;
+  display: block;
 }
 .night {
   color: #d7cfbe;
@@ -451,9 +445,6 @@ dialog .upload {
 .night .header-actions {
   gap: 28px;
 }
-.night .original-link {
-  display: none;
-}
 .night .quiet {
   color: #a8acaa;
 }
@@ -468,7 +459,7 @@ dialog .upload {
   color: #82918e;
 }
 .night .book-caption #book-subtitle {
-  display: none;
+  display: block;
 }
 .night .scene-tools button {
   color: #a5a99e;
@@ -839,9 +830,6 @@ dialog {
   max-width: calc(100vw - 40px);
 }
 @media (max-width: 520px) {
-  .original-link {
-    display: none;
-  }
   .reader-bar {
     overflow-x: auto;
     scrollbar-width: thin;
@@ -864,5 +852,11 @@ dialog {
   }
   .night .header-actions {
     gap: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .night .book-caption #book-subtitle {
+    display: none;
   }
 }

@@ -146,19 +146,8 @@ export class BookScene {
     this.scene.add(this.lantern.group, ...this.lantern.lights);
     this.gpuApi.bindLights(this.lantern.lights, this.key);
     this.setLight(true);
-    new T.TextureLoader().load(
-      new URL('../assets/paper-mono/grain.webp', import.meta.url).href,
-      (t) => {
-        if (this.disposed) {
-          t.dispose();
-          return;
-        }
-        this.keep(t);
-        t.wrapS = t.wrapT = T.RepeatWrapping;
-        for (const p of Object.values(this.pages)) p.material.uniforms.uPaperGrain.value = t;
-        this.invalidate();
-      },
-    );
+    // Original procedural grain; no texture borrowed from the reference site.
+    for (const p of Object.values(this.pages)) p.material.uniforms.uPaperGrain.value = this.grain;
     this.ray = new T.Raycaster();
     this.pointer = new T.Vector2();
     this.hitPlane = new T.Plane(new T.Vector3(0, 0, 1), -0.15);

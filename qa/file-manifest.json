@@ -4,16 +4,16 @@
     "sha256": "0236baaa876eef2fbe3d4a9b01aac87d148b925fac3f58e1bc0cc9819ed88dab"
   },
   ".gitattributes": {
-    "bytes": 222,
-    "sha256": "a902c47089629a46ff93d05f0cea9702436ce2bc31eef46b9847452e7bdb9e39"
+    "bytes": 228,
+    "sha256": "be5df87fc8df31bd464d65a19c426dcc7882e3bf5c678ae9c10e66b97358b72f"
   },
   ".github/workflows/check.yml": {
     "bytes": 289,
     "sha256": "f1226f4102c4bee89a9db4170b0abc685cbc5c884393e76a608d71ddd5d5fc6b"
   },
   ".gitignore": {
-    "bytes": 105,
-    "sha256": "2483ffa9ace07d41e58ec0ebb8663e079746ef5252653db6d2d9ad348a2c409b"
+    "bytes": 134,
+    "sha256": "2087d5646777aaea1a702a7944575e4a2c644a0501dde7ba351bb23509bd4358"
   },
   ".prettierignore": {
     "bytes": 20,
@@ -28,152 +28,84 @@
     "sha256": "1ed330223527be7837400d28b22126cd1a0db7a0e5aa886f3b0b45d911eb28d3"
   },
   "README.md": {
-    "bytes": 6780,
-    "sha256": "7a4f13adf84784eadb66366556b5c9c8095d987ad0d0dfdbd76f03d26dae15a6"
+    "bytes": 8174,
+    "sha256": "5c5d23038f9eb3095c9607bab19e7440c2fe5560d3901fe6f3b3bb055665441f"
   },
-  "assets/paper-mono/AUTHORS.txt": {
+  "assets/books/RIGHTS.md": {
+    "bytes": 522,
+    "sha256": "f3da2d32a889c256e7b6c2e363857dd56d555885b61807c41877399f97caf0fb"
+  },
+  "assets/books/book.json": {
+    "bytes": 422,
+    "sha256": "bafb805568b5683bc748769ef2c435ea3cb411f53b280dd9f9f7c906a6b50107"
+  },
+  "assets/books/khoi-nguon.pdf": {
+    "bytes": 2948055,
+    "sha256": "d783ee55c1de1e29bfc719d67899b97e1b443c73315d481263b39857dd43aa9a"
+  },
+  "assets/fonts/paper-mono/AUTHORS.txt": {
     "bytes": 686,
     "sha256": "4345acc281ca3c2e93d70b7034641c97e9d1242bdd683943e2c981e7f421ae5f"
   },
-  "assets/paper-mono/LICENSE.txt": {
+  "assets/fonts/paper-mono/LICENSE.txt": {
     "bytes": 4517,
     "sha256": "6c09ddf064a0b0f7cfffd555c674bfa08bb1e1a75a3e4b7b1a63c8f7cbb5a1f2"
   },
-  "assets/paper-mono/OFL.txt": {
+  "assets/fonts/paper-mono/OFL.txt": {
     "bytes": 4402,
     "sha256": "ae8bcaf5a046be7e096b5710a8532cdaa5a299462e182752b805dcfa44370e4c"
   },
-  "assets/paper-mono/PaperMonoVF.ttf": {
+  "assets/fonts/paper-mono/PaperMonoVF.ttf": {
     "bytes": 124020,
     "sha256": "d728431c1d9db90f866fb27a40ead10fe63ff34bebbca470f079df10715b3b6d"
   },
-  "assets/paper-mono/grain.webp": {
-    "bytes": 100348,
-    "sha256": "74aeacf9f439f7907d7c1fd02b84faad18d1a7113601336f935bddb4ccf501c9"
-  },
-  "assets/paper-mono/provenance.json": {
-    "bytes": 21303,
-    "sha256": "dd3831ded89eb5f09ba618e7346194ec6499808b5b658db574c0afa413844280"
-  },
-  "assets/paper-mono/source.0-wwe74rvfh03.webp": {
-    "bytes": 222212,
-    "sha256": "b7bf61ce5f579bbbee1fb128e2f16420ba19b8b3845fbe0eab275877b45e8faa"
-  },
-  "assets/paper-mono/source.01w72glyg2__s.webp": {
-    "bytes": 363828,
-    "sha256": "126eac35d4f17667417f3e8b4d4638f0d4a7aafb219951733f2d0e20d77ebd04"
-  },
-  "assets/paper-mono/source.04wapydx8ugdm.webp": {
-    "bytes": 2360868,
-    "sha256": "4f751ac9621ac51e195bfb36a499326f958b40383a7b5bf989dd96a2004256a0"
-  },
-  "assets/paper-mono/source.06umapw54bn3-.webp": {
-    "bytes": 7722438,
-    "sha256": "52ac2c3da64698bddf1979a93311ee373336c1dd8838563cfaa1722644d4d612"
-  },
-  "assets/paper-mono/source.0loyupgd-llv3.webp": {
-    "bytes": 178330,
-    "sha256": "db4b38a15f16727aae1a569545d38becf4b998734594cc94a0d969574dd3d913"
-  },
-  "assets/paper-mono/source.0xwfz71_undyc.webp": {
-    "bytes": 194122,
-    "sha256": "d4badba54daab68ce892aa171f1e1270d92109a7eb5f8db01243b2b3ca9802ac"
-  },
-  "assets/paper-mono/source.11yz8cwgt9wpl.webp": {
-    "bytes": 3270032,
-    "sha256": "39c785d1fc154edfc61d454984f2be4db3d5c06592966b20266a2c895a441ed8"
-  },
-  "assets/paper-mono/source.125upruoa8tj2.webp": {
-    "bytes": 183668,
-    "sha256": "0e1993918c83e6a868043c63c78d5326d97983e4987c0284b82928db8e9ecd17"
-  },
-  "assets/paper-mono/source.1b0211hm-3j8-.webp": {
-    "bytes": 62674,
-    "sha256": "c1db1e1330f55c300f1138cfe91cb3cfb4a0b01bd662d4c10d4ac83bf043f8d3"
-  },
-  "assets/paper-mono/source.1fq2qhku_44ek.webp": {
-    "bytes": 113854,
-    "sha256": "d4560a7707839275b5ed8c17ec6116b039f48779ca74058891274b0135fb4b07"
-  },
-  "assets/paper-mono/source.1kjldpjgis18k.webp": {
-    "bytes": 3750672,
-    "sha256": "15eb86da38e7d2cb128479ef84d341fb3e32e8a35169e6299adaa2c7363fcb85"
-  },
-  "assets/paper-mono/source.1lew2a1x586nn.webp": {
-    "bytes": 8650854,
-    "sha256": "46903b471caaf270939cca995005e0d78b640829fbf747ac1985c4f9db4c6e4a"
-  },
-  "assets/paper-mono/source.1u0_7tltzl8fb.webp": {
-    "bytes": 7596128,
-    "sha256": "7939935ad62bc88f34f5604bbda2c45f4341be6eca4399c489a8848e775dce9f"
-  },
-  "assets/paper-mono/source.1wxgnxua2rs60.webp": {
-    "bytes": 63836,
-    "sha256": "42b71de20d89103defd75b64861b90de3419cf4a0b8b667b89b33185ff5dde7b"
-  },
-  "assets/paper-mono/source.1zk6fayyj3ycc.webp": {
-    "bytes": 66314,
-    "sha256": "fb2a3cc8722800e449e3adda553f8017a05c32be2b4a09f5ec8e2a092b50d4c2"
-  },
-  "assets/paper-mono/source.20lyuk-rcisp0.webp": {
-    "bytes": 3541988,
-    "sha256": "ceaf4743c605164a75afaad35e8f3f5b2d61ea66e709c78c36a9a745ff5e1856"
-  },
-  "assets/paper-mono/source.20zjk78s-v4tb.webp": {
-    "bytes": 191356,
-    "sha256": "e8a0b851c51b20df2869d824f4a3a3f092722e68c4f0c451c01c9f87f04d649d"
-  },
-  "assets/paper-mono/source.2do_5ylfmwzim.webp": {
-    "bytes": 42806,
-    "sha256": "2526f49f3b76e9ecbe8d45adade7b986cfc17e89da488312afaaf71a422d849d"
-  },
-  "assets/paper-mono/source.2r9bec016u4d7.webp": {
-    "bytes": 61764,
-    "sha256": "ea7a29eae5fb4265d340ce6603ff91e132e7e5d081ba0e12eb5b145ccd66a1bd"
-  },
-  "assets/paper-mono/source.2v4e83owsai-b.webp": {
-    "bytes": 152994,
-    "sha256": "363ab64b9a036101053003c9b209175518b31a5b3972d996be4f8b706f7f0382"
-  },
-  "assets/paper-mono/source.31q1b48s9nf5a.webp": {
-    "bytes": 363832,
-    "sha256": "1e8ae9ebe0a3dab353fe98892b9f313ece73a34d2f0b29b81d756542edd22ce8"
-  },
-  "assets/paper-mono/source.35xazubcdw-23.webp": {
-    "bytes": 3266170,
-    "sha256": "9e1b7c33e0053fe27c56ce7e48216c9c3590c078074dee90013407332b5b7fec"
-  },
-  "assets/paper-mono/source.3johz36l3vgvu.webp": {
-    "bytes": 68550,
-    "sha256": "b1ae3573afb1500d4aa0a4d77241782345bdb74307b6496cf8a466a21d760c4d"
-  },
-  "assets/paper-mono/source.41fz5m5jze7at.webp": {
-    "bytes": 2758256,
-    "sha256": "e956965379b90cd3a2c8eeb529702554ff47f9586fbe094a593e86fce137a405"
-  },
-  "assets/paper-mono/wordmark.svg": {
-    "bytes": 1541,
-    "sha256": "8920131a6d5e0845532b2697b8f19da092c660bb984bd42d97fbf8c18ea5a19f"
+  "assets/fonts/paper-mono/provenance.json": {
+    "bytes": 240,
+    "sha256": "7c7eacaea8e8d80961dc2d5a32f93b94bb288570a23611d30c35531cc819cfc2"
   },
   "index.html": {
-    "bytes": 9549,
-    "sha256": "4d42f6705a4d47006bc6c6f5223fb2298149922e1c7939b0a631f00b917430bf"
+    "bytes": 9755,
+    "sha256": "2fc362a823aeedd68edfd48ae7e6bc8124f8fb5ec56f493d313333fa9f73d49c"
   },
   "package.json": {
     "bytes": 225,
-    "sha256": "a964feb7009bed23076acbaf9200b5b219a634914123fa742bfd34b92b697ddf"
+    "sha256": "04149c279aa10dc198e2e2d91f9872460fc2b26e295d486f8de23a8fc44615ff"
   },
   "qa/cleanup.json": {
     "bytes": 3043,
     "sha256": "bf6b8852ecbf544b433d068c9bd705d63da7a98d91fffb5b1d679ae14648507a"
   },
+  "qa/khoi-nguon-featured.jpg": {
+    "bytes": 116442,
+    "sha256": "c9668c22b179061ed474518a76017d23f6cccd24d9b0e0a0113fccefe1d481c1"
+  },
   "qa/polish-desktop.jpg": {
     "bytes": 67756,
     "sha256": "b54cfe64cb217f7621cc1a3e5809020e1b4a65267c81569ef21d555d8841b1cd"
   },
+  "qa/public-readiness.json": {
+    "bytes": 1025,
+    "sha256": "258e7cb6c795fc073238d42ae088e7d1d9dc231556dba7c3942ca40a8d1c3767"
+  },
+  "qa/secrets-before-clean.json": {
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "qa/secrets-book-text.json": {
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "qa/secrets-working-tree.json": {
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
   "qa/verification-controls.md": {
     "bytes": 2781,
     "sha256": "303491f1cec667547d9f09bfc5e3512ab127722852554069a640ad2f64a80bb6"
+  },
+  "qa/verification-featured.md": {
+    "bytes": 1791,
+    "sha256": "3a61118c62fcbabc3e1373a782d891a5d4309529154bc488392be3eb2fcc8bc6"
   },
   "qa/verification-polish.md": {
     "bytes": 3182,
@@ -200,16 +132,16 @@
     "sha256": "372ffbc02d695ba976416766c0eeaeecddbed2454fa6ebae395789a821522260"
   },
   "scripts/check.mjs": {
-    "bytes": 1349,
-    "sha256": "f2fe9f71622492e4e0622661149d459818bdb410f0fad32f36f5d77856a30497"
+    "bytes": 1360,
+    "sha256": "398bd1834ece5295efa054197f92d64746478b41285f29c2938f3d3cf32f7f29"
   },
   "server.py": {
     "bytes": 451,
     "sha256": "7bd861170814c46d543df000c8d9fb7be0cca5ad4b94418ddba429169770cfab"
   },
   "src/book.mjs": {
-    "bytes": 32073,
-    "sha256": "8e4173d598cd8bc1c10d7744c12f1c020a972489b3e9560fbe7ca2749af6bdbc"
+    "bytes": 31847,
+    "sha256": "2c8933c377fd72f8bb489a24979448ad6021421417180496d6848725d58b7546"
   },
   "src/cache.mjs": {
     "bytes": 2227,
@@ -222,6 +154,10 @@
   "src/desk.mjs": {
     "bytes": 400,
     "sha256": "19bb592673a8628907e38142071b0aee31f9952f307dc84e9d138e26559e4e7e"
+  },
+  "src/featured-book.mjs": {
+    "bytes": 562,
+    "sha256": "f9e56aaeb460f9a563f5e62a1123ffbd2e7d7578997ecfe6f77bc9a4cb8dd08a"
   },
   "src/gpu-materials.mjs": {
     "bytes": 11284,
@@ -236,8 +172,8 @@
     "sha256": "38395ab5a961412043851f34012c22a260909130f94e999517fcbbe003ebb77a"
   },
   "src/main.mjs": {
-    "bytes": 21559,
-    "sha256": "d9628fc8c888248b610d0ae9a2576094e133b1e63ddc47d7b03ca301b4a4ef54"
+    "bytes": 21468,
+    "sha256": "97ca255ef8b9b47a650541594920a355b28e6e672da495074368a1232a9931b1"
   },
   "src/object-pose.mjs": {
     "bytes": 1206,
@@ -250,10 +186,6 @@
   "src/reader-state.mjs": {
     "bytes": 1517,
     "sha256": "e848b750f5767029766f4f73cdeae323f4fb9875aac8eeac29b311e0fe5e4555"
-  },
-  "src/reference.mjs": {
-    "bytes": 1740,
-    "sha256": "ee3ca33ea30574040b5aa73ed7b4361560c5f3b1bd375cb31957a4cf8d58e31c"
   },
   "src/renderer.mjs": {
     "bytes": 476,
@@ -268,8 +200,8 @@
     "sha256": "5b09b36106e2734e71f0e1f29c8f3a26dde596b6a00e7594bd675953bc6303b6"
   },
   "style.css": {
-    "bytes": 14484,
-    "sha256": "9ac173731e44bc80d104d818c7928cf9c53b0c29e7ac5c7481970cd56c76a7ab"
+    "bytes": 14420,
+    "sha256": "b4989c7fd73266c7e0823c49f5af3094648a925d24f3cf40bade55c2d96aee81"
   },
   "tests/cache.test.mjs": {
     "bytes": 2635,
@@ -278,6 +210,10 @@
   "tests/camera.test.mjs": {
     "bytes": 3038,
     "sha256": "1c47d13e58093eac275742571d44b61f65b11ae03b2807e5df7f1ff0f52dc9da"
+  },
+  "tests/featured-book.test.mjs": {
+    "bytes": 1004,
+    "sha256": "35b22d5aa8f5ed9f02eeafc162fa620b1c2fa5a027108e0563e627f5209381ec"
   },
   "tests/fixture-320.pdf": {
     "bytes": 263196,
