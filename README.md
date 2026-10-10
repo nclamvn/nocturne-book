@@ -71,4 +71,4 @@ Repository vẫn **private** và giữ nguyên lịch sử theo quyết định 
 
 Gitleaks đã quét lịch sử Git, thư mục sản phẩm và nội dung/metadata PDF được giải mã; chưa phát hiện API key hoặc secret theo các mẫu nhận diện của công cụ. Ứng dụng không gọi dịch vụ AI, không dùng token, backend thương mại hoặc analytics. Báo cáo tại `qa/public-readiness.json`. Đây là kết quả quét và rà mã, không phải chứng nhận không thể có bí mật dưới mọi dạng.
 
-Để public repository có toàn bộ lịch sử, vẫn cần xử lý quyền phân phối những ảnh mẫu trong commit cũ hoặc được chủ dự án cho phép làm sạch lịch sử. Chưa đổi visibility, chưa force-push.
+Để public repository có toàn bộ lịch sử, vẫn cần xử lý quyền phân phối những ảnh mẫu trong commit cũ hoặc được chủ dự án cho phép làm sạch lịch sử. Đã xác nhận repository private theo lựa chọn của chủ dự án; chưa force-push.

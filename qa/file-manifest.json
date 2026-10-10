@@ -28,8 +28,8 @@
     "sha256": "1ed330223527be7837400d28b22126cd1a0db7a0e5aa886f3b0b45d911eb28d3"
   },
   "README.md": {
-    "bytes": 8174,
-    "sha256": "5c5d23038f9eb3095c9607bab19e7440c2fe5560d3901fe6f3b3bb055665441f"
+    "bytes": 8225,
+    "sha256": "dd513f2e6aba17a0729c43a316c161afff9db8e7e73948a81ab3aeac60f4d800"
   },
   "assets/books/RIGHTS.md": {
     "bytes": 522,
@@ -84,8 +84,8 @@
     "sha256": "b54cfe64cb217f7621cc1a3e5809020e1b4a65267c81569ef21d555d8841b1cd"
   },
   "qa/public-readiness.json": {
-    "bytes": 1025,
-    "sha256": "258e7cb6c795fc073238d42ae088e7d1d9dc231556dba7c3942ca40a8d1c3767"
+    "bytes": 1272,
+    "sha256": "18b65f049ddc4df70dda5857c775b54655ec22f8bfe3f8a760b2c6db555a22db"
   },
   "qa/secrets-before-clean.json": {
     "bytes": 3,
@@ -104,8 +104,8 @@
     "sha256": "303491f1cec667547d9f09bfc5e3512ab127722852554069a640ad2f64a80bb6"
   },
   "qa/verification-featured.md": {
-    "bytes": 1791,
-    "sha256": "3a61118c62fcbabc3e1373a782d891a5d4309529154bc488392be3eb2fcc8bc6"
+    "bytes": 1907,
+    "sha256": "2efebd2eb86138d476c4126288566106f8bca0a20ead1515bbabc782ab8bb971"
   },
   "qa/verification-polish.md": {
     "bytes": 3182,
