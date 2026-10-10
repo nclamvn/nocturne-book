@@ -1,0 +1,12 @@
+{
+  "package": "three",
+  "version": "0.186.0",
+  "source": "https://cdn.jsdelivr.net/npm/three@0.186.0/build/three.webgpu.js",
+  "localFile": "vendor/three.webgpu.js",
+  "sha256": "a78400fa1d359e81fcc12b84ed0a89a7fbecb4b8373e28ae8f9d2b11f6ea13bc",
+  "bytes": 2284823,
+  "license": "MIT; vendor/THREE-LICENSE.txt",
+  "coreRevision": "186",
+  "runtime": "Local ES modules; no runtime CDN requests",
+  "retrieved": "2026-10-10"
+}

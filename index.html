@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#101719" />
+    <title>Dưới ánh đèn — Sách 3D</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="studio" class="night" aria-label="Phòng đọc sách 3D">
+      <div
+        id="scene"
+        aria-label="Cuốn sách 3D. Kéo góc trang để giở, giữ Shift và kéo để xoay."
+        tabindex="0"
+      ></div>
+      <header class="header">
+        <a class="brand" href="./" aria-label="Paper Mono, về bản đối chiếu"
+          ><img src="assets/paper-mono/wordmark.svg" width="88" height="24" alt="Paper" /><span
+            class="night-brand"
+            >Dưới ánh đèn</span
+          ></a
+        >
+        <div class="header-actions">
+          <button id="help" class="quiet" aria-label="Hướng dẫn thao tác">Hướng dẫn</button
+          ><button id="upload" class="upload">
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M10 13V3m-4 4 4-4 4 4M4 12v5h12v-5" /></svg
+            >Mở PDF của bạn</button
+          ><input id="pdf-file" type="file" accept="application/pdf,.pdf" hidden /><a
+            class="original-link"
+            href="https://paper.design/mono"
+            target="_blank"
+            rel="noreferrer"
+            >Bản gốc ↗</a
+          >
+        </div>
+      </header>
+      <aside class="book-caption">
+        <p id="edition">Paper Mono · 24 trang</p>
+        <h1 id="book-title">Paper Mono</h1>
+        <p id="book-subtitle">Bản đối chiếu · paper.design/mono</p>
+      </aside>
+      <div class="object-tools" role="toolbar" aria-label="Cầm và xoay cuốn sách">
+        <button
+          id="page-mode"
+          aria-keyshortcuts="G"
+          aria-pressed="true"
+          title="Kéo mép giấy để giở"
+        >
+          Giở trang
+        </button>
+        <button
+          id="move-mode"
+          aria-keyshortcuts="C"
+          aria-pressed="false"
+          title="Kéo để cầm sách, thả để đặt xuống"
+        >
+          Cầm sách
+        </button>
+        <button
+          id="rotate-mode"
+          aria-keyshortcuts="R"
+          aria-pressed="false"
+          title="Kéo để xoay tự do theo ba trục"
+        >
+          Xoay 3D
+        </button>
+        <button
+          id="reset-pose"
+          aria-keyshortcuts="0"
+          aria-label="Trở về góc đọc"
+          title="Trở về góc đọc"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 8M4 4v6h6" /></svg>
+        </button>
+      </div>
+      <div class="scene-tools" aria-label="Góc nhìn và ánh sáng">
+        <button id="view" aria-label="Đổi góc nhìn" title="Đổi góc nhìn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m12 3 9 5v8l-9 5-9-5V8zM3 8l9 5 9-5M12 13v8" />
+          </svg></button
+        ><button id="light" aria-label="Đổi ánh sáng" title="Đổi ánh sáng">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1" />
+          </svg></button
+        ><button
+          id="lamp-control"
+          aria-label="Độ sáng đèn"
+          aria-expanded="false"
+          aria-controls="lamp-panel"
+          title="Độ sáng đèn"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3c1 5 6 6 6 11a6 6 0 1 1-12 0c0-3 2-5 3-6 0 3 1 4 2 4 2-2 1-5 1-9z" />
+          </svg></button
+        ><button
+          id="motion"
+          aria-label="Giảm chuyển động"
+          aria-pressed="false"
+          title="Giảm chuyển động"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5v14M15 5v14" /></svg></button
+        ><button id="sound" aria-label="Bật âm giở giấy" aria-pressed="false" title="Âm giở giấy">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 9h4l5-4v14l-5-4H3zM16 8q5 4 0 8M19 4q8 8 0 16" />
+          </svg></button
+        ><button id="fullscreen" aria-label="Toàn màn hình" title="Toàn màn hình">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6" />
+          </svg>
+        </button>
+      </div>
+      <aside id="lamp-panel" hidden>
+        <label for="lamp-brightness">Độ sáng đèn <output id="lamp-value">125%</output></label
+        ><input
+          id="lamp-brightness"
+          type="range"
+          min="50"
+          max="150"
+          value="125"
+          step="5"
+          aria-label="Độ sáng đèn"
+        />
+        <p>Kéo sang phải để tăng ánh sáng.</p>
+      </aside>
+      <div id="hint" class="hint">Kéo mép trang để giở <span>·</span> Shift + kéo để xoay</div>
+      <footer class="reader-bar">
+        <button id="cover" class="cover-button" aria-label="Mở sách">Mở sách</button
+        ><span class="bar-divider"></span
+        ><button id="prev" class="icon" aria-label="Trang trước" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" /></svg>
+        </button>
+        <form id="jump-form">
+          <label for="page" class="sr-only">Đến trang</label
+          ><input id="page" inputmode="numeric" value="Bìa" aria-label="Đến trang" /><span
+            id="page-total"
+            >/ 24</span
+          >
+        </form>
+        <button id="next" class="icon" aria-label="Trang tiếp theo">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6" /></svg></button
+        ><span class="bar-divider"></span
+        ><button id="bookmark" class="icon" aria-label="Đánh dấu trang" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 3h12v18l-6-4-6 4z" />
+          </svg></button
+        ><button
+          id="marks"
+          class="icon marks-button"
+          aria-label="Trang đánh dấu (0)"
+          aria-expanded="false"
+          aria-controls="marks-panel"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 5h13M7 12h13M7 19h13M3 5h.1M3 12h.1M3 19h.1" /></svg
+          ><span id="marks-count"></span></button
+        ><span class="bar-divider"></span
+        ><button id="zoom-out" class="icon" aria-label="Thu nhỏ">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10" cy="10" r="6" />
+            <path d="m15 15 5 5M7 10h6" />
+          </svg></button
+        ><button id="zoom-in" class="icon" aria-label="Phóng to">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10" cy="10" r="6" />
+            <path d="m15 15 5 5M7 10h6m-3-3v6" />
+          </svg></button
+        ><progress id="reading-progress" max="24" value="0" aria-label="Tiến độ đọc"></progress>
+      </footer>
+      <aside id="marks-panel" hidden aria-label="Trang đánh dấu">
+        <div class="marks-heading">
+          <span>Trang đánh dấu</span
+          ><button id="marks-close" aria-label="Đóng trang đánh dấu">×</button>
+        </div>
+        <div id="marks-list"></div>
+      </aside>
+      <div id="status" class="status" role="status" aria-live="polite">
+        Đang chuẩn bị cuốn sách…
+      </div>
+      <div id="drop-overlay" hidden>Thả PDF để mở cuốn sách</div>
+      <dialog id="help-dialog" aria-labelledby="help-title">
+        <button class="dialog-close" aria-label="Đóng hướng dẫn">×</button>
+        <p class="dialog-label">Cầm một cuốn sách, theo cách của bạn</p>
+        <h2 id="help-title">Một khoảng yên để đọc.</h2>
+        <dl>
+          <dt>Kéo góc hoặc cạnh trang</dt>
+          <dd>Giở tới hoặc lùi. Thả giữa chừng để trang trở về.</dd>
+          <dt>Cầm và xoay sách</dt>
+          <dd>
+            Chọn Cầm sách để nhấc, kéo và thả cuốn sách. Chọn Xoay 3D để xoay tự do theo ba trục.
+            Góc đọc đưa sách về vị trí ban đầu. G: giở trang · C: cầm sách · R: xoay · 0: góc đọc.
+            Shift + kéo để xoay; Alt hoặc chuột phải + kéo để cầm. Cuộn để tiến gần.
+          </dd>
+          <dt>Phím ← và →</dt>
+          <dd>Giở trang. Nhập số trang để đi thẳng đến đó.</dd>
+          <dt>Đánh dấu và đọc tiếp</dt>
+          <dd>
+            Dùng biểu tượng đánh dấu để lưu trang. Khi mở lại cùng PDF, sách trở về vị trí đã đọc.
+            Tệp PDF không được lưu lại.
+          </dd>
+          <dt>Ánh sáng và chuyển động</dt>
+          <dd>
+            Chuyển giữa ánh đèn và ban ngày bằng biểu tượng mặt trời. Biểu tượng lửa mở thanh chỉnh
+            độ sáng đèn. Bật Giảm chuyển động để giữ lửa yên và giở nhanh.
+          </dd>
+          <dt>Mở PDF của bạn</dt>
+          <dd>PDF được xử lý ngay trên máy, không tải lên máy chủ.</dd>
+        </dl>
+        <button id="demo" class="upload">Trở về Paper Mono</button>
+      </dialog>
+      <output id="diagnostics" hidden></output>
+    </main>
+    <script type="module" src="src/main.mjs"></script>
+  </body>
+</html>

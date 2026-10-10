@@ -1,0 +1,153 @@
+{
+  "removed": [
+    {
+      "file": "qa/day-after-night.jpg",
+      "bytes": 118266
+    },
+    {
+      "file": "qa/gutter-turn.jpg",
+      "bytes": 96082
+    },
+    {
+      "file": "qa/graphics-pdf-desktop.jpg",
+      "bytes": 78658
+    },
+    {
+      "file": "qa/final-reverse-times.json",
+      "bytes": 253
+    },
+    {
+      "file": "qa/clone-motion-contact.jpg",
+      "bytes": 204686
+    },
+    {
+      "file": "qa/night-desktop.jpg",
+      "bytes": 74979
+    },
+    {
+      "file": "qa/graphics-day-pdf.jpg",
+      "bytes": 116926
+    },
+    {
+      "file": "qa/presentation-times.json",
+      "bytes": 281
+    },
+    {
+      "file": "qa/page-turn.jpg",
+      "bytes": 43249
+    },
+    {
+      "file": "qa/graphics-turn.jpg",
+      "bytes": 79936
+    },
+    {
+      "file": "qa/final-forward-times.json",
+      "bytes": 253
+    },
+    {
+      "file": "qa/desktop-spread.jpg",
+      "bytes": 55065
+    },
+    {
+      "file": "qa/capture-cleanup.json",
+      "bytes": 2148
+    },
+    {
+      "file": "qa/graphics-flame.gif",
+      "bytes": 1531861
+    },
+    {
+      "file": "qa/clone-cover.jpg",
+      "bytes": 138808
+    },
+    {
+      "file": "qa/pdf-318-319.jpg",
+      "bytes": 58257
+    },
+    {
+      "file": "qa/clone-motion.gif",
+      "bytes": 5476600
+    },
+    {
+      "file": "qa/gutter-motion.gif",
+      "bytes": 5147556
+    },
+    {
+      "file": "qa/graphics-desktop.jpg",
+      "bytes": 73986
+    },
+    {
+      "file": "qa/night-motion.gif",
+      "bytes": 8661808
+    },
+    {
+      "file": "qa/cover.jpg",
+      "bytes": 44797
+    },
+    {
+      "file": "qa/gutter-midbook.jpg",
+      "bytes": 96961
+    },
+    {
+      "file": "qa/graphics-pdf-angle.jpg",
+      "bytes": 79254
+    },
+    {
+      "file": "qa/graphics-flame-measurements.json",
+      "bytes": 322
+    },
+    {
+      "file": "qa/clone-pdf-320.jpg",
+      "bytes": 102641
+    },
+    {
+      "file": "qa/pdf-fixture-page-1.png",
+      "bytes": 115576
+    },
+    {
+      "file": "qa/reference-assets.jpg",
+      "bytes": 403631
+    },
+    {
+      "file": "qa/gutter-earlybook.jpg",
+      "bytes": 96294
+    },
+    {
+      "file": "qa/paper-edges-320.jpg",
+      "bytes": 95910
+    },
+    {
+      "file": "qa/clone-inspection.jpg",
+      "bytes": 127549
+    },
+    {
+      "file": "qa/night-turn.jpg",
+      "bytes": 97722
+    },
+    {
+      "file": "qa/clone-page-turn.jpg",
+      "bytes": 130952
+    }
+  ],
+  "archivedReports": [
+    "verification-night.md",
+    "verification-paper-edges.md",
+    "verification-graphics.md",
+    "verification-gutter.md",
+    "verification.md",
+    "verification-v02.md"
+  ],
+  "removedBytes": 23351267,
+  "removedCode": [
+    "src/lighting.mjs",
+    "vendor/three.module.js",
+    "legacy GLSL shader branches",
+    "unused procedural DemoSource and cover generators",
+    "invisible hard-cover hinge, spine and ribbon meshes",
+    "unused easing function and page-quality flag"
+  ],
+  "installs": 0,
+  "scratchCopies": 0,
+  "removedCodeBytes": 663446,
+  "formatter": "Reused existing local Prettier; no installation"
+}

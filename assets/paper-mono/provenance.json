@@ -1,0 +1,453 @@
+{
+  "reference": "https://paper.design/mono",
+  "assets": [
+    {
+      "contentType": "font/ttf",
+      "id": "fba7fbda6c9f770c",
+      "kind": "font",
+      "name": "PaperMonoVF-s.p.2fi9y_i0l5co-.ttf",
+      "path": "assets/paper-mono/PaperMonoVF.ttf",
+      "url": "https://paper.design/mono/_next/static/media/PaperMonoVF-s.p.2fi9y_i0l5co-.ttf?dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "a5420e22161a1ce1",
+      "kind": "image",
+      "name": "monoMagazineTexture.2alrgz5ynltjb.webp",
+      "path": "assets/paper-mono/grain.webp",
+      "url": "https://paper.design/mono/_next/static/media/monoMagazineTexture.2alrgz5ynltjb.webp?dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "931895ef4828439b",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.1kjldpjgis18k.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.1kjldpjgis18k.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.1kjldpjgis18k.png",
+        "url": "https://paper.design/mono/_next/static/media/source.1kjldpjgis18k.png",
+        "bytes": 7198912,
+        "sha256": "8f738dc5699b4489c4f4f3440e78821eda8c014bf51294a7d4955c93bfa0ade7"
+      },
+      "local": "assets/paper-mono/source.1kjldpjgis18k.webp",
+      "pixelLossless": true,
+      "localBytes": 3750672,
+      "localSha256": "15eb86da38e7d2cb128479ef84d341fb3e32e8a35169e6299adaa2c7363fcb85"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "1fb8d308bf88daf1",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.04wapydx8ugdm.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.04wapydx8ugdm.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.04wapydx8ugdm.png",
+        "url": "https://paper.design/mono/_next/static/media/source.04wapydx8ugdm.png",
+        "bytes": 5406588,
+        "sha256": "eaee1043e309b0cebb49155305e6c7719653b85d4aa2323af87476b8c00a8374"
+      },
+      "local": "assets/paper-mono/source.04wapydx8ugdm.webp",
+      "pixelLossless": true,
+      "localBytes": 2360868,
+      "localSha256": "4f751ac9621ac51e195bfb36a499326f958b40383a7b5bf989dd96a2004256a0"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "93de0f4662d3b36f",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.1b0211hm-3j8-.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.1b0211hm-3j8-.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.1b0211hm-3j8-.png",
+        "url": "https://paper.design/mono/_next/static/media/source.1b0211hm-3j8-.png",
+        "bytes": 379843,
+        "sha256": "c4db7846ddb9e215bcf1000984c65910125050aae8c16c2cb7c27989bcdf3962"
+      },
+      "local": "assets/paper-mono/source.1b0211hm-3j8-.webp",
+      "pixelLossless": true,
+      "localBytes": 62674,
+      "localSha256": "c1db1e1330f55c300f1138cfe91cb3cfb4a0b01bd662d4c10d4ac83bf043f8d3"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "7d1488f8967c9055",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.01w72glyg2__s.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.01w72glyg2__s.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.01w72glyg2__s.png",
+        "url": "https://paper.design/mono/_next/static/media/source.01w72glyg2__s.png",
+        "bytes": 936535,
+        "sha256": "ba1c1b0ea2cf077e031f03da2f427f7f8f6cc86770ce47f8df212dc82bb67073"
+      },
+      "local": "assets/paper-mono/source.01w72glyg2__s.webp",
+      "pixelLossless": true,
+      "localBytes": 363828,
+      "localSha256": "126eac35d4f17667417f3e8b4d4638f0d4a7aafb219951733f2d0e20d77ebd04"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "c5d54a01cf9eb60c",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.31q1b48s9nf5a.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.31q1b48s9nf5a.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.31q1b48s9nf5a.png",
+        "url": "https://paper.design/mono/_next/static/media/source.31q1b48s9nf5a.png",
+        "bytes": 1180139,
+        "sha256": "fa9391343c9d28064d179dce743957f6bb56ed8affd8bdb3e2f4837614818f61"
+      },
+      "local": "assets/paper-mono/source.31q1b48s9nf5a.webp",
+      "pixelLossless": true,
+      "localBytes": 363832,
+      "localSha256": "1e8ae9ebe0a3dab353fe98892b9f313ece73a34d2f0b29b81d756542edd22ce8"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "cc96819150a4fdce",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.0-wwe74rvfh03.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.0-wwe74rvfh03.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.0-wwe74rvfh03.png",
+        "url": "https://paper.design/mono/_next/static/media/source.0-wwe74rvfh03.png",
+        "bytes": 1445650,
+        "sha256": "436244026bb0b4adf7611c7a7c77e33dea69fbdb22a5234f94dd50269d8f5564"
+      },
+      "local": "assets/paper-mono/source.0-wwe74rvfh03.webp",
+      "pixelLossless": true,
+      "localBytes": 222212,
+      "localSha256": "b7bf61ce5f579bbbee1fb128e2f16420ba19b8b3845fbe0eab275877b45e8faa"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "65a10aea6b2f6a21",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.35xazubcdw-23.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.35xazubcdw-23.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.35xazubcdw-23.png",
+        "url": "https://paper.design/mono/_next/static/media/source.35xazubcdw-23.png",
+        "bytes": 8391277,
+        "sha256": "2c4e5af8a060b860545d74500c904ff2b920db938aee3ce501855c78dfcd7fb5"
+      },
+      "local": "assets/paper-mono/source.35xazubcdw-23.webp",
+      "pixelLossless": true,
+      "localBytes": 3266170,
+      "localSha256": "9e1b7c33e0053fe27c56ce7e48216c9c3590c078074dee90013407332b5b7fec"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "058aa3c072e7dd4c",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.11yz8cwgt9wpl.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.11yz8cwgt9wpl.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.11yz8cwgt9wpl.png",
+        "url": "https://paper.design/mono/_next/static/media/source.11yz8cwgt9wpl.png",
+        "bytes": 6333426,
+        "sha256": "32136974a97fcfd3ee0b12080836bcfb88726c0b4e61f663a7afdbac012c425e"
+      },
+      "local": "assets/paper-mono/source.11yz8cwgt9wpl.webp",
+      "pixelLossless": true,
+      "localBytes": 3270032,
+      "localSha256": "39c785d1fc154edfc61d454984f2be4db3d5c06592966b20266a2c895a441ed8"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "37d1064dc62e6ad0",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.125upruoa8tj2.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.125upruoa8tj2.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.125upruoa8tj2.png",
+        "url": "https://paper.design/mono/_next/static/media/source.125upruoa8tj2.png",
+        "bytes": 747318,
+        "sha256": "08d37252fe3eb219ab538ea763a7395c96d4f0244a426efeef7761d867230d27"
+      },
+      "local": "assets/paper-mono/source.125upruoa8tj2.webp",
+      "pixelLossless": true,
+      "localBytes": 183668,
+      "localSha256": "0e1993918c83e6a868043c63c78d5326d97983e4987c0284b82928db8e9ecd17"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "8f45e11a758f4d33",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.0xwfz71_undyc.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.0xwfz71_undyc.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.0xwfz71_undyc.png",
+        "url": "https://paper.design/mono/_next/static/media/source.0xwfz71_undyc.png",
+        "bytes": 1130302,
+        "sha256": "72d78cb7586861ed8351302619372e05959263bcf50cb272e79b2e602aa82bd2"
+      },
+      "local": "assets/paper-mono/source.0xwfz71_undyc.webp",
+      "pixelLossless": true,
+      "localBytes": 194122,
+      "localSha256": "d4badba54daab68ce892aa171f1e1270d92109a7eb5f8db01243b2b3ca9802ac"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "5562b49df8d8f9c8",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.41fz5m5jze7at.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.41fz5m5jze7at.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.41fz5m5jze7at.png",
+        "url": "https://paper.design/mono/_next/static/media/source.41fz5m5jze7at.png",
+        "bytes": 7636409,
+        "sha256": "911e37d60f21594b1217d7e05f2cd85bb685f54cf74a43148a5c2a8487948d0f"
+      },
+      "local": "assets/paper-mono/source.41fz5m5jze7at.webp",
+      "pixelLossless": true,
+      "localBytes": 2758256,
+      "localSha256": "e956965379b90cd3a2c8eeb529702554ff47f9586fbe094a593e86fce137a405"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "e87b8530064fe6db",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.1fq2qhku_44ek.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.1fq2qhku_44ek.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.1fq2qhku_44ek.png",
+        "url": "https://paper.design/mono/_next/static/media/source.1fq2qhku_44ek.png",
+        "bytes": 516210,
+        "sha256": "7ba1bfcc7d290c95b60fd64fc71cee40ef897a9827396739c4a3f3daee5327f6"
+      },
+      "local": "assets/paper-mono/source.1fq2qhku_44ek.webp",
+      "pixelLossless": true,
+      "localBytes": 113854,
+      "localSha256": "d4560a7707839275b5ed8c17ec6116b039f48779ca74058891274b0135fb4b07"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "fa16a42a86b016cb",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.3johz36l3vgvu.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.3johz36l3vgvu.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.3johz36l3vgvu.png",
+        "url": "https://paper.design/mono/_next/static/media/source.3johz36l3vgvu.png",
+        "bytes": 401458,
+        "sha256": "67c3eab41a72fc59b26ec7e7d51612805be14560529bd9e57873cb646aa352b1"
+      },
+      "local": "assets/paper-mono/source.3johz36l3vgvu.webp",
+      "pixelLossless": true,
+      "localBytes": 68550,
+      "localSha256": "b1ae3573afb1500d4aa0a4d77241782345bdb74307b6496cf8a466a21d760c4d"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "950930c9364f9b5d",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.20zjk78s-v4tb.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.20zjk78s-v4tb.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.20zjk78s-v4tb.png",
+        "url": "https://paper.design/mono/_next/static/media/source.20zjk78s-v4tb.png",
+        "bytes": 714110,
+        "sha256": "a9ecb2b0f841452bcb525c12da7f91b1f1ed4936d69623f98850c04c804048b7"
+      },
+      "local": "assets/paper-mono/source.20zjk78s-v4tb.webp",
+      "pixelLossless": true,
+      "localBytes": 191356,
+      "localSha256": "e8a0b851c51b20df2869d824f4a3a3f092722e68c4f0c451c01c9f87f04d649d"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "36bb512963ef556d",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.2do_5ylfmwzim.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.2do_5ylfmwzim.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.2do_5ylfmwzim.png",
+        "url": "https://paper.design/mono/_next/static/media/source.2do_5ylfmwzim.png",
+        "bytes": 306731,
+        "sha256": "e6977fcb3fc0a0045f93d195744c7b4a11b9060f8a35f38d8f201c188459a289"
+      },
+      "local": "assets/paper-mono/source.2do_5ylfmwzim.webp",
+      "pixelLossless": true,
+      "localBytes": 42806,
+      "localSha256": "2526f49f3b76e9ecbe8d45adade7b986cfc17e89da488312afaaf71a422d849d"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "5bb2c0679751544e",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.1wxgnxua2rs60.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.1wxgnxua2rs60.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.1wxgnxua2rs60.png",
+        "url": "https://paper.design/mono/_next/static/media/source.1wxgnxua2rs60.png",
+        "bytes": 388408,
+        "sha256": "ea76c6a7568da3caf59711fdd8ebf03fe8289338c540f54a4c8dc9b9d5f628ce"
+      },
+      "local": "assets/paper-mono/source.1wxgnxua2rs60.webp",
+      "pixelLossless": true,
+      "localBytes": 63836,
+      "localSha256": "42b71de20d89103defd75b64861b90de3419cf4a0b8b667b89b33185ff5dde7b"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "3b33c49e8e5d81b6",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.2r9bec016u4d7.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.2r9bec016u4d7.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.2r9bec016u4d7.png",
+        "url": "https://paper.design/mono/_next/static/media/source.2r9bec016u4d7.png",
+        "bytes": 380572,
+        "sha256": "2569be005c4f665b0f50a34f5ce21014be181ccbd3f5d0aa3de81a8d000013fa"
+      },
+      "local": "assets/paper-mono/source.2r9bec016u4d7.webp",
+      "pixelLossless": true,
+      "localBytes": 61764,
+      "localSha256": "ea7a29eae5fb4265d340ce6603ff91e132e7e5d081ba0e12eb5b145ccd66a1bd"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "47408b5fa82e6c92",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.06umapw54bn3-.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.06umapw54bn3-.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.06umapw54bn3-.png",
+        "url": "https://paper.design/mono/_next/static/media/source.06umapw54bn3-.png",
+        "bytes": 13203598,
+        "sha256": "3c490ebffbff153b1634bd281d91936653c0f9a14b015d67ba82c020c39071bb"
+      },
+      "local": "assets/paper-mono/source.06umapw54bn3-.webp",
+      "pixelLossless": true,
+      "localBytes": 7722438,
+      "localSha256": "52ac2c3da64698bddf1979a93311ee373336c1dd8838563cfaa1722644d4d612"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "0f0544182e53ba47",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.1zk6fayyj3ycc.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.1zk6fayyj3ycc.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.1zk6fayyj3ycc.png",
+        "url": "https://paper.design/mono/_next/static/media/source.1zk6fayyj3ycc.png",
+        "bytes": 449286,
+        "sha256": "d9018a266d0ee5997a6355ea352cf40928ad585918755b225c2da97e0cfdb1cd"
+      },
+      "local": "assets/paper-mono/source.1zk6fayyj3ycc.webp",
+      "pixelLossless": true,
+      "localBytes": 66314,
+      "localSha256": "fb2a3cc8722800e449e3adda553f8017a05c32be2b4a09f5ec8e2a092b50d4c2"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "f2b3267272cf3113",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.20lyuk-rcisp0.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.20lyuk-rcisp0.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.20lyuk-rcisp0.png",
+        "url": "https://paper.design/mono/_next/static/media/source.20lyuk-rcisp0.png",
+        "bytes": 7637876,
+        "sha256": "2a6962a8de228afc09e0a01524c3e97f5c5d00f05eebe3570a9ec1d693172a97"
+      },
+      "local": "assets/paper-mono/source.20lyuk-rcisp0.webp",
+      "pixelLossless": true,
+      "localBytes": 3541988,
+      "localSha256": "ceaf4743c605164a75afaad35e8f3f5b2d61ea66e709c78c36a9a745ff5e1856"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "186569c5aeb34430",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.1lew2a1x586nn.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.1lew2a1x586nn.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.1lew2a1x586nn.png",
+        "url": "https://paper.design/mono/_next/static/media/source.1lew2a1x586nn.png",
+        "bytes": 14530707,
+        "sha256": "c8bae2e9cc9b9ac6d0d1fea8bed1adea90f0de18aa56ed2787fe837802c3996e"
+      },
+      "local": "assets/paper-mono/source.1lew2a1x586nn.webp",
+      "pixelLossless": true,
+      "localBytes": 8650854,
+      "localSha256": "46903b471caaf270939cca995005e0d78b640829fbf747ac1985c4f9db4c6e4a"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "982b8bc42b50ed03",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.0loyupgd-llv3.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.0loyupgd-llv3.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.0loyupgd-llv3.png",
+        "url": "https://paper.design/mono/_next/static/media/source.0loyupgd-llv3.png",
+        "bytes": 1045642,
+        "sha256": "e1ac0c5d3a0c9bf79da682b651d137f8064c88fc99221e09a93349184da66ab4"
+      },
+      "local": "assets/paper-mono/source.0loyupgd-llv3.webp",
+      "pixelLossless": true,
+      "localBytes": 178330,
+      "localSha256": "db4b38a15f16727aae1a569545d38becf4b998734594cc94a0d969574dd3d913"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "b9a17cecfa6358a5",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.2v4e83owsai-b.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.2v4e83owsai-b.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.2v4e83owsai-b.png",
+        "url": "https://paper.design/mono/_next/static/media/source.2v4e83owsai-b.png",
+        "bytes": 1014452,
+        "sha256": "6c7865360ba26d4e81fa832546175902505b832bff17dc0c0206d1e612f64959"
+      },
+      "local": "assets/paper-mono/source.2v4e83owsai-b.webp",
+      "pixelLossless": true,
+      "localBytes": 152994,
+      "localSha256": "363ab64b9a036101053003c9b209175518b31a5b3972d996be4f8b706f7f0382"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "cf0b2bdeee97f8bc",
+      "kind": "image",
+      "name": "image",
+      "path": "assets/paper-mono/source.1u0_7tltzl8fb.avif",
+      "url": "https://paper.design/mono/_next/image?url=%2Fmono%2F_next%2Fstatic%2Fmedia%2Fsource.1u0_7tltzl8fb.png&w=1200&q=90&dpl=dpl_Et5Rs9VLwDFoe2MR4P1Vxjw7Behh",
+      "fullResolution": {
+        "path": "assets/paper-mono/source.1u0_7tltzl8fb.png",
+        "url": "https://paper.design/mono/_next/static/media/source.1u0_7tltzl8fb.png",
+        "bytes": 12538780,
+        "sha256": "af6174387516cdb734dc1cd85aeccfcbbfe022de64761bd76e94e5b5293a10b1"
+      },
+      "local": "assets/paper-mono/source.1u0_7tltzl8fb.webp",
+      "pixelLossless": true,
+      "localBytes": 7596128,
+      "localSha256": "7939935ad62bc88f34f5604bbda2c45f4341be6eca4399c489a8848e775dce9f"
+    }
+  ]
+}

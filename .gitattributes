@@ -1,0 +1,10 @@
+* text=auto
+*.pdf binary
+*.webp binary
+*.jpg binary
+*.ttf binary
+*.bcmap binary
+*.wasm binary
+# Preserve upstream libraries and license text exactly as downloaded.
+vendor/** -whitespace
+assets/paper-mono/*.txt -whitespace
